@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
+
+.imagen:hover {
+transform:scale(1.5);
+transition: all .45s
+}
+.imagen {overflow:hidden;}
+
+
+.video-container {
+width: 250px;
+height: 421px;
+}
+
+video {
+width: 250px;
+height: 421px;
+}
+
+.animation-element {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    animation: entrada 1.5s ease-out; /* Nombre de la animación, duración y temporización */
+    opacity: 1; /* Inicialmente invisible */
+}
+
+/* Definición de la animación */
+@keyframes entrada {
+    0% {
+        transform: scale(1.5);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.imag:hover {
+transform: scale(1.03);
+overflow:hidden;
+box-shadow: 4px 4px 4px 2px rgba(128,64,64,2);
+transition: all .45s;
+}
+
+.animation-buton{
+	color:#ffffff;
+}
+
+.animation-buton:hover{
+        transform: scale(.95);
+	background: #ffffff;
+	color: #000000;
+}
+
+.juniors{
+font-family; 'Cardo', Serif;
+font-weight: 700;
+}
